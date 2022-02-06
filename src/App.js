@@ -17,10 +17,7 @@ function App() {
         if (inputTxt) {
           let response = await fetch(`https://api.github.com/search/users?q=${inputTxt}+in:${search}&order=desc&per_page=7&type=Users`,
             {
-              signal,
-              headers: {
-                authorization: "token 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"
-              }
+              signal
             }
           )
           let { items } = await response.json()

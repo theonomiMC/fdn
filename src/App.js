@@ -19,7 +19,7 @@ function App() {
             {
               signal,
               headers: {
-                authorization: "token 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"
+                authorization: "token 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"
               }
             }
           )
